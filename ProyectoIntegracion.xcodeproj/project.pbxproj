@@ -11,6 +11,10 @@
 		0482936B2DE793B7006181BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482936A2DE793B7006181BB /* ContentView.swift */; };
 		0482936D2DE793B9006181BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0482936C2DE793B9006181BB /* Assets.xcassets */; };
 		048293702DE793B9006181BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0482936F2DE793B9006181BB /* Preview Assets.xcassets */; };
+		048293792DE79549006181BB /* ViewControllerImagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048293782DE79549006181BB /* ViewControllerImagen.swift */; };
+		0482937B2DE7979A006181BB /* VistaSelectorImagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482937A2DE7979A006181BB /* VistaSelectorImagen.swift */; };
+		0482937D2DE79D73006181BB /* ViewControllerVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482937C2DE79D73006181BB /* ViewControllerVideo.swift */; };
+		0482937F2DE79DB4006181BB /* VistaReproductorVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482937E2DE79DB4006181BB /* VistaReproductorVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0482936A2DE793B7006181BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0482936C2DE793B9006181BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0482936F2DE793B9006181BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048293782DE79549006181BB /* ViewControllerImagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerImagen.swift; sourceTree = "<group>"; };
+		0482937A2DE7979A006181BB /* VistaSelectorImagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaSelectorImagen.swift; sourceTree = "<group>"; };
+		0482937C2DE79D73006181BB /* ViewControllerVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVideo.swift; sourceTree = "<group>"; };
+		0482937E2DE79DB4006181BB /* VistaReproductorVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaReproductorVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		048293672DE793B7006181BB /* ProyectoIntegracion */ = {
 			isa = PBXGroup;
 			children = (
+				0482937C2DE79D73006181BB /* ViewControllerVideo.swift */,
+				0482937E2DE79DB4006181BB /* VistaReproductorVideo.swift */,
 				048293682DE793B7006181BB /* ProyectoIntegracionApp.swift */,
 				0482936A2DE793B7006181BB /* ContentView.swift */,
+				048293782DE79549006181BB /* ViewControllerImagen.swift */,
+				0482937A2DE7979A006181BB /* VistaSelectorImagen.swift */,
 				0482936C2DE793B9006181BB /* Assets.xcassets */,
 				0482936E2DE793B9006181BB /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0482936B2DE793B7006181BB /* ContentView.swift in Sources */,
+				0482937B2DE7979A006181BB /* VistaSelectorImagen.swift in Sources */,
+				0482937D2DE79D73006181BB /* ViewControllerVideo.swift in Sources */,
+				048293792DE79549006181BB /* ViewControllerImagen.swift in Sources */,
 				048293692DE793B7006181BB /* ProyectoIntegracionApp.swift in Sources */,
+				0482937F2DE79DB4006181BB /* VistaReproductorVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
